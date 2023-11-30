@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style/game.css" > 
+  
+</head>
+<body>
+  <div class="top">
+    <div class="top-left">
+      <div>
+        <img src= "images/cross.png" class="score-icon">:<span class="X-score"></span>
+        &nbsp;<img src= "images/circle.png" class="score-icon">:<span class="O-score"></span>
+      </div>
+    </div>
+    <div class="top-mid"></div>
+    <div class="top-right">
+      <svg class='dark-mode' width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path class='sun-icon' d="M40 20C40 31.0457 31.0457 40 20 40C8.9543 40 0 31.0457 0 20C0 8.9543 8.9543 0 20 0C31.0457 0 40 8.9543 40 20Z" fill="#FFD702"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="center">
+    <div class="board">
+      <div class="button0"></div>
+      <div class="button1"></div>
+      <div class="button2"></div>
+      <div class="button3"></div>
+      <div class="button4"></div>
+      <div class="button5"></div>
+      <div class="button6"></div>
+      <div class="button7"></div>
+      <div class="button8"></div>
+    </div>
+    <button class="reset-button">Reset</button>
+    <button class="reset-score-button">Reset Score</button>
+  </div>
+
+  <script src="script/anime.min.js"></script>
+  <script src="script/logic.js"></script>
+  <script src="script/animation.js"></script>
+</body>
+
+</html>
